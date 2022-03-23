@@ -86,7 +86,7 @@ function stopClicking() {
 function checkMatchedBlocks(firstBlock, secondBlock) {
   let triesElement = document.querySelector(".tries span");
 
-  if (firstBlock.dataset.animals === secondBlock.dataset.animals) {
+  if (firstBlock.dataset.technology === secondBlock.dataset.technology) {
     firstBlock.classList.remove("is-flipped");
     secondBlock.classList.remove("is-flipped");
 
