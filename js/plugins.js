@@ -139,3 +139,17 @@ function shuffle(array) {
     [2] Current Element = Random Element
     [3] Random Element = Get Element From Stash
   */
+document.querySelector("#btn-flip").onclick = function () {
+  let blocks = document.querySelectorAll(".game-block");
+  blocks.forEach((block) => {
+    block.classList.add("is-flipped");
+    setInterval(() => {
+      block.classList.remove("is-flipped");
+    }, 2000);
+  });
+  this.classList.add("disable");
+};
+
+document.getElementById("reload").onclick = () => {
+  location.reload();
+};

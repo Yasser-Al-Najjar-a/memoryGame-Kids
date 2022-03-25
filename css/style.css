@@ -9,6 +9,7 @@ body {
   text-align: center;
   background-color: #e8e8e8;
   padding: 5px;
+  margin-bottom: 15px;
 }
 .wlcome h3 {
   color: #009688;
@@ -184,4 +185,58 @@ body {
   .memory-game-blocks .game-block .front:before {
     font-size: 58px;
   }
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-flip {
+  /* position: absolute;
+  top: 160px;
+  left: 50%; 
+   transform: translateX(-50%); */
+  background-color: #03a9f4;
+  color: white;
+  border: 1px solid #2e7799;
+  border-radius: 6px;
+  padding: 6px 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-flip:hover {
+  background-color: #126eb8;
+}
+.reload {
+  /* position: absolute;
+  top: 160px;
+  left: 510px; */
+  background-color: #ffc107;
+  color: white;
+  border: 1px solid #cba32b;
+  border-radius: 6px;
+  padding: 6px 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.reload:hover {
+  background-color: #ff9800;
+}
+@media (max-width: 767px) {
+  /* .reload {
+    left: 200px;
+  }
+  .btn-flip {
+    left: 150px;
+  } */
+  .wlcome h3 {
+    font-size: 24px;
+  }
+}
+
+.disable {
+  pointer-events: none;
+  opacity: 0.5;
 }
