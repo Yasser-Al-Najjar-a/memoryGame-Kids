@@ -4,6 +4,47 @@
 body {
   font-family: Arial, Tahoma, sans-serif;
 }
+.wlcome {
+  margin: 1px auto;
+  text-align: center;
+  background-color: #e8e8e8;
+  padding: 5px;
+}
+.wlcome h3 {
+  color: #009688;
+  font-size: 30px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.wlcome p {
+  font-size: 17px;
+  color: #555;
+}
+.wlcome p span {
+  color: #2196f3;
+}
+.wlcome .social {
+  padding: 10px;
+}
+.wlcome .social a {
+  color: white;
+  background-color: #909090;
+  padding: 9px;
+  text-decoration: none;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.wlcome .social a:hover:nth-of-type(1) {
+  background-color: #1877f2;
+  margin-left: 3px;
+}
+.wlcome .social a:hover:nth-of-type(2) {
+  background-color: #fd1d1d;
+}
+.wlcome .social a:hover:nth-of-type(3) {
+  background-color: #075e54;
+}
 .control-buttons {
   position: fixed;
   left: 0;
