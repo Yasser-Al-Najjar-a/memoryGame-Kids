@@ -143,7 +143,7 @@ document.querySelector("#btn-flip").onclick = function () {
   let blocks = document.querySelectorAll(".game-block");
   blocks.forEach((block) => {
     block.classList.add("is-flipped");
-    setInterval(() => {
+    setTimeout(() => {
       block.classList.remove("is-flipped");
     }, 2000);
   });
